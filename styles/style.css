@@ -1,18 +1,19 @@
 * {
     text-decoration: none;
-    list-style-type: none;
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-color: red;
-}
 
-h1,
-h2 {
+h1 {
     text-align: center;
     font-size: 40px;
-    padding-top: 40px;
+    padding: 40px;
+    color: white;
+}
+
+h2 {
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 main {
@@ -23,31 +24,87 @@ main {
 .imagen {
     width: 100%;
     text-align: center;
-    margin-top: 60px;
-}
+   margin-top: 10px;
+} 
 
-.imagen img {
-    transition: 3s;
+.imaInfo{
+    width: 200px;
+    height:200px;
+    margin-top: 15%;
+    transition: 0.5s;
     border-radius: 10px;
     box-shadow: -5px 2px 32px 7px rgba(0, 0, 0, 0.76);
     -webkit-box-shadow: -5px 2px 32px 7px rgba(0, 0, 0, 0.76);
     -moz-box-shadow: -5px 2px 32px 7px rgba(0, 0, 0, 0.76);
 }
 
-.imagen img:hover {
+.imaInfo:hover {
     transform: scale(1.2);
-    transition: 3s;
+    transition: 2s;
     cursor: pointer;
-}
+} 
 
 
 .footer {
     position: fixed;
     left: 0px;
     bottom: 0px;
-    height: 30px;
+    height: 40px;
     width: 100%;
     text-align: center;
     font-size: small;
     font-style: italic;
+    color: white;
+   
+}
+
+.imagenCar {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carrusel img {
+    height: 60vh;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 7%;
+}
+
+#back{
+background-image: url(/Imagenes/2.png );
+}
+
+.text{
+    padding: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+@media only screen and (min-width: 700px) {
+
+    .imaInfo{
+        width: 250px;
+        height:100;
+        margin-top: 45%;
+        margin-bottom: 13%;
+    }
+
+    #back{
+        background-image: url(/Imagenes/1.png); 
+        background-repeat: no-repeat;  
+        background-position: center center; 
+        background-size:cover;
+        min-height: 100vh;
+    }
+
+    .text{
+        margin-top: 0;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
 }
