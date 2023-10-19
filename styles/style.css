@@ -1,0 +1,38 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: azure;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
