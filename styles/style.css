@@ -54,6 +54,16 @@ main {
     text-align: center;
     font-size: small;
     font-style: italic;
+    color: white; 
+}
+
+.footer2 {
+    margin-top: 10vh;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
     color: black; 
 }
 
@@ -78,7 +88,7 @@ background-image: url(/Imagenes/2.png );
 
 .text{
     padding: 30px;
-    color: black;
+    color: white;
     text-align: center;
     margin-top: 10%;
 }
@@ -93,7 +103,7 @@ background-image: url(/Imagenes/2.png );
     }
 
     #back{
-        background-image: url(/Imagenes/1.png); 
+        background-image: url(/Imagenes/Grupo\ Novelas/background.jpg); 
         background-repeat: no-repeat;  
         background-position: center center; 
         background-size:cover;
